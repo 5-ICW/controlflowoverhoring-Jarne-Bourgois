@@ -17,5 +17,22 @@
  *
  */
 
-let startgetal = 2;
+let startgetal = 4;
 const eindgetal = 12;
+let i = 0;
+while (startgetal < eindgetal) {
+  startgetal += 2;
+  i++;
+  console.log(startgetal);
+}
+
+console.log(
+  "Het startgetal",
+  startgetal - i * 2,
+  "werd",
+  i,
+  "keer verhoogt met 2"
+);
+i % 2 == 0
+  ? console.log("het is een even aantal keer gebeurt")
+  : console.log("het is een oneven aantal keer gebeurt");
