@@ -5,3 +5,4 @@
  */
 
 let kleur;
+kleur == undefined ? console.log("de kleur is rood") : console.log(kleur);
